@@ -1,0 +1,83 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.importent-form-area h3 {
+    font-weight:  400;
+    font-size:  30px;
+}
+
+.importent-form-area>p {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.our-form input, textarea {
+    width: 100%;
+    padding: 12px;
+    padding-top: 30px;
+    border:1px solid #ccc;
+}
+p.form-element label {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    z-index: 1;
+    font-weight: 600;
+}
+p.form-element {
+    position: relative;
+}
+.our-form input[type="text"]:focus, .our-form input[type="email"]:focus, .our-form input[type="submit"]:focus, textarea:focus {
+    background: #ccc;
+    outline: none;
+}
+p.importent-form-title {
+    font-size: 22px;
+}
+p.submit-title {
+    margin:  0;
+}
+
+.our-form input[type="submit"] {
+    width:  auto;
+    float:  right;
+    padding:  10px 30px;
+    border:  0;
+    font-weight:  600;
+    text-transform:  uppercase;
+    background: #6258A8;
+    color:  #fff;
+    border-radius:  5px;
+    margin-top: -10px;
+}
+
